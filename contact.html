@@ -1,0 +1,81 @@
+<!--Contact page for portfolio-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap contanct information</title>
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--CSS link-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Damon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mt-0 mt-lg-1">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--End list-->
+      </div>
+      <!--End container-->
+    </nav>
+    <!--End Nav-->  
+
+    <!--Contact form-->
+    <div class="container">
+      <form class="block form-horizontal">
+        <h1 class="block-header">Contact</h1>
+        <hr>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="col-sm-2 form-label">Name</label>
+          <div class="col-sm-5">
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail" class="col-sm-2 form-label">E-mail</label>
+          <div class="col-sm-5">
+            <input type="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputMessage1" class="col-sm-2 form-label">Message</label>
+          <div class="col-sm-5">
+            <textarea type="message" class="form-control" rows="3" id="exampleInputMessage" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!--End of form-->
+
+    <!--Footer-->
+    <footer class="navbar fixed-bottom navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-text">
+          Damon1v1 on Github
+        </span>
+      </div>
+    </footer>
+    <!--End of footer-->
+</body>

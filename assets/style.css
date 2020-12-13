@@ -1,0 +1,8 @@
+.form-control {
+    /* give input boxes right angles */
+    border-radius: 0;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
