@@ -1,8 +1,54 @@
-.form-control {
-    /* give input boxes right angles */
-    border-radius: 0;
-  
-    /* keep from horizontally resizing text area */
-    min-width: 100%;
-    max-width: 100%;
+/*Universal items*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/websitebg.jpg");
+  background-size: cover;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin: 80px 0;
+}
+
+/* create styles for use for all white main boxes */
+.block {
+  background-color: #fff;
+
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.block-header {
+  /* Typography */
+  color: #000000;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+
+/*navbar*/
+
+.navbar .navbar-brand {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(219, 219, 219);
+  background: rgba(255, 255, 255, 0.287);
+}
+
+.navbar {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(0, 0, 0);
+  border: whitesmoke;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  nav {
+    background-color: #000000;
   }
+}

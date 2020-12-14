@@ -11,37 +11,37 @@
 
 <body>
 <!--Navbar-->
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Damon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto mt-0 mt-lg-1">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <!--End list-->
-      </div>
-      <!--End container-->
-    </nav>
-    <!--End Nav-->  
+<nav class="navbar navbar-expand-xl navbar-dark" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Damon Burda</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto mt-0 mt-lg-1">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!--End list-->
+  </div>
+  <!--End container-->
+</nav>
+<!--End Nav-->  
 
     <!--Portfolio gallery start-->
-    <section class="container">
-        <main class="row">
+    <main class="container">
+        <div class="row">
             <div class="col-md-8">
                 <article class="block">
-                    <h1 class="col-md-8">Portfolio</h1>
+                    <h1 class="block-header">Portfolio</h1>
                     <hr>
                     <div class="row">
                       <div class="col-sm-6 col-md-12 col-lg-6">
@@ -67,14 +67,8 @@
                 </article>
             </main>
     </section>
-    
-    
-    
-    
     <!--Portfolio gallery end-->
-
-
-
+    
     <!--Footer-->
     <footer class="navbar fixed-bottom navbar-light bg-light">
         <div class="container-fluid">
@@ -83,5 +77,8 @@
           </span>
         </div>
     </footer>
-      <!--End of footer-->
+    <!--End of footer-->
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
 </body>
