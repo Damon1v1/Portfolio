@@ -1,4 +1,4 @@
-/*Universal items*/
+/*universal items*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("images/websitebg.jpg");
@@ -14,30 +14,28 @@ main {
   margin: 80px 0;
 }
 
-/* create styles for use for all white main boxes */
+/*stylings for all block elements*/
 .block {
   background-color: #fff;
-
   padding: 20px;
   margin-bottom: 20px;
 }
 
+/*typography*/
 .block-header {
-  /* Typography */
   color: #000000;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
-
+/*end universal items
 
 /*navbar*/
-
 .navbar .navbar-brand {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: rgb(219, 219, 219);
-  background: rgba(255, 255, 255, 0.287);
+  background: rgba(255, 255, 255, 0.239);
 }
 
 .navbar {
@@ -45,10 +43,23 @@ main {
   background: rgb(0, 0, 0);
   border: whitesmoke;
 }
+/*navbar end*/
 
-/* media query for nav background color change */
-@media only screen and (max-width: 767px) {
-  nav {
-    background-color: #000000;
-  }
+/*footer*/
+footer .navbar-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+/*footer end*/
+
+/*images*/
+.portrait {
+  height: 200px;
+  width: 200px;
+}
+
+.img-fluid {
+  height: 350px;
+  width: 350px;
+  padding: 15px;
 }
