@@ -1,19 +1,5 @@
 <!--Contact page for portfolio-->
 
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <!--Bootstrap link-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!--CSS link-->
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-xl navbar-dark" id="navbar">
@@ -25,13 +11,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto mt-0 mt-lg-1">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link" href="/home">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="/portfolio">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -43,25 +29,25 @@
 
     <!--Contact form-->
     <main class="container">
-      <form class="block form-horizontal">
+      <form class="block form-horizontal" id="contact-form">
         <h1 class="block-header">Contact</h1>
         <hr>
         <div class="mb-3">
           <label for="exampleInputName1" class="col-sm-2 form-label">Name</label>
           <div class="col-sm-5">
-            <input class="form-control" id="exampleInputName1" placeholder="Name">
+            <input class="form-control" id="nameInput" placeholder="Name">
           </div>
         </div>
         <div class="mb-3">
           <label id="exampleInputEmail" class="col-sm-2 form-label">E-mail</label>
           <div class="col-sm-5">
-            <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="E-mail">
+            <input type="email" class="form-control" id="emailInput"  placeholder="E-mail">
           </div>
         </div>
         <div class="mb-3">
           <label id="exampleInputMessage1" class="col-sm-2 form-label">Message</label>
           <div class="col-sm-5">
-            <textarea class="form-control" rows="3" id="exampleInputMessage" placeholder="Message"></textarea>
+            <textarea class="form-control" rows="3" id="messageInput" placeholder="Message"></textarea>
           </div>
         </div>
         <button type="submit" class="btn btn-dark">Submit</button>
@@ -77,6 +63,7 @@
     </footer>
     <!--End of footer-->
 
+<script src="/js/send_message.js"></script>
 <!--Javascript CDN-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
