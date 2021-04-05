@@ -19,7 +19,7 @@
 ![image](https://user-images.githubusercontent.com/71532303/113531526-e7f55e00-957d-11eb-88f2-b4e4f9c8fd59.png)
 
 ## Deployment
-You can view the website with this [link](https://damon1v1.github.io/Portfolio/portfolio.html)
+You can view the website with this [link](https://damon1v1.herokuapp.com/)
 
 ## Credits
 ### Resources I used on this project
