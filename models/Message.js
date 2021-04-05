@@ -24,7 +24,8 @@ Message.init(
         },
         message: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            unique: true
         }
     },
     {

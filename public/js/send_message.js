@@ -16,7 +16,7 @@ const messageFormHandler = async function(event) {
     });
 
     if (response.ok) {
-        document.location.replace('/contact');
+        document.location.replace('/home');
     } else {
         alert('Failed to send message');
     }
