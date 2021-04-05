@@ -40,6 +40,10 @@ app.use(portfolioRoutes);
 app.use(contactRoutes);
 app.use(serveStatic(path.join(__dirname, 'public')));
 
+app.get("/", function(req, res) {
+  res.json(path.join(__dirname, "public/index.html"));
+});
+
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
