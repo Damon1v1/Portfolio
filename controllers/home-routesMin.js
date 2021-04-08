@@ -1,0 +1,1 @@
+const router=require("express").Router();router.get("/home",(a,b)=>{b.render("home")}),module.exports=router;

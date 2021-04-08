@@ -1,0 +1,1 @@
+const router=require("express").Router(),apiRoutes=require("./api"),homeRoutes=require("./home-routesMin.js"),contactRoutes=require("./contact-routesMin.js"),portfolioRoutes=require("./portfolio-routesMin.js");router.use("/api",apiRoutes),router.use("/",homeRoutes),router.use("/contact",contactRoutes),router.use("/portfolio",portfolioRoutes),module.exports=router;

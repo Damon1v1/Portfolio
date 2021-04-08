@@ -1,5 +1,6 @@
 const path = require('path');
 const express = require('express');
+const compression= require('compression');
 const exphbs = require('express-handlebars');
 const serveStatic = require('serve-static');
 const session = require('express-session');
@@ -33,7 +34,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use(compression())
 app.use(routes);
 app.use(homeRoutes);
 app.use(portfolioRoutes);

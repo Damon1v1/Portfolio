@@ -1,0 +1,1 @@
+const router=require("express").Router(),Message=require("../../models/MessageMin");router.post("/",async(a,b)=>{try{await Message.create({name:a.body.name,email:a.body.email,message:a.body.message})}catch(a){console.log(a),b.status(500).json(a)}}),module.exports=router;

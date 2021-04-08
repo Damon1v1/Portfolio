@@ -38,4 +38,5 @@ https://expressjs.com/
 https://www.npmjs.com/package/express-handlebars
 https://sequelize.org/
 https://www.npmjs.com/package/mysql2
+https://www.npmjs.com/package/compression
 ```

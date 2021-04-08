@@ -1,0 +1,1 @@
+const router=require("express").Router(),messageRoutes=require("./message-routesMin.js");router.use("/messages",messageRoutes),module.exports=router;

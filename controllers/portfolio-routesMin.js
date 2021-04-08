@@ -1,0 +1,1 @@
+const router=require("express").Router();router.get("/portfolio",(a,b)=>{b.render("portfolio")}),module.exports=router;
